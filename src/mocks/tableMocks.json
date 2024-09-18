@@ -1,0 +1,68 @@
+[
+  {
+    "header": [
+      {"id": "project_name", "type": "string", "caption": "Project name"},
+      {"id": "total_by_project", "type": "float", "caption": "Total by project"},
+      {"id": "project_type", "type": "string", "caption": "Project type", "align": "center"},
+      {"id": "jan", "type": "float", "caption": "Jan"},
+      {"id": "feb", "type": "float", "caption": "Feb"}
+    ],
+    "data": [
+      ["Mimesis", 1024.3, "commercial", 2048.2, 4096.0],
+      ["Mako", 2345.1, "internal", 3465.3, {"data": 12.5, "color": "selected"}],
+      ["Edelweiss", 54.4, "commercial", 564.8, 4652.3]
+    ]
+  },
+  {
+    "header": [
+      {"id": "project_name", "type": "string", "caption": "Project name"},
+      {"id": "total_by_project", "type": "float", "caption": "Total by project"},
+      {"id": "project_type", "type": "string", "caption": "Project type", "align": "center"},
+      {"id": "jan", "type": "float", "caption": "January"},
+      {"id": "feb", "type": "float", "caption": "February"},
+      {"id": "march", "type": "float", "caption": "March"},
+      {"id": "april", "type": "float", "caption": "April"}
+    ],
+    "data": [
+      ["Colorado", 1024.3, "commercial", 2048.2, 4096.0, 300, 999],
+      ["Mexico", 2345.1, "internal", 3465.3, {"data": 12.5, "color": "selected"}, 300, 399],
+      ["Texas", 54.4, "commercial", 564.8, 4652.3, 700, 101]
+    ]
+  },
+  {
+    "header": [
+      {"id": "project_name", "type": "string", "caption": "Project name"},
+      {"id": "total_by_project", "type": "float", "caption": "Total by project"},
+      {"id": "project_type", "type": "string", "caption": "Project type", "align": "left"}
+    ],
+    "data": [
+      ["Dobby", {"data": 12.5, "everybody": "something"}, "commercial", 2048.2],
+      ["Harry Potter", 2345.1, "internal"],
+      ["Ron Uisli", {"data": 12.5, "everybody": "something", "prop":  "coca-cola"}, "commercial"]
+    ]
+  },
+  {
+    "header": [
+      {"id": "project_name", "type": "string", "caption": "Project name"},
+      {"id": "total_by_project", "type": "float", "caption": "Total by project"},
+      {"id": "project_type", "type": "string", "caption": "Project type", "align": "right"},
+      {"id": "coca-cola", "type": "float", "caption": "Cola"},
+      {"id": "pepsi", "type": "float", "caption": "Pepsi"},
+      {"id": "fanta", "type": "float", "caption": "Fanta"},
+      {"id": "sprite", "type": "float", "caption": "Sprite"},
+      {"id": "water", "type": "float", "caption": "Water"},
+      {"id": "beer", "type": "float", "caption": "Beer"},
+      {"id": "7up", "type": "float", "caption": "7up"}
+    ],
+    "data": [
+      ["give", 1024.3, "commercial", 2048.2, 4096.0, 234, {"data": 12.5, "color": "selected"}, {"data": 333, "color": "selected"}, {"data": 4444, "color": "selected"}, {"data": 333, "color": "selected"}],
+      ["me", {"data": 12.5, "color": "selected"}, {"data": 12.5, "color": "selected"}, 3465.3, {"data": 12.5, "color": "selected"}, 77, 66, 33, 22, 11],
+      ["an offer :D", 54.4, "commercial", 564.8, 4652.3, 11, 22, 33, 42344, 52345],
+      ["I", 54.4, "commercial", 23.8, 233.3, 132421, 222341, 33, 44, 5345],
+      ["am", 54.4, "commercial", 44.8, 56.3, 1133, 22, 33423, 42344, 324],
+      ["a", 54.4, "commercial", 44.8, 54223.3, 434, 22, 331122, 44234, 5235],
+      ["good", 54.4, "commercial", 66.8, 123423.3, 23, 21232, 33, 324, 23455],
+      ["developer", 54.4, "commercial", 11.8, 3433.3, 2, 211232, 4343, 44, 52345]
+    ]
+  }
+]
